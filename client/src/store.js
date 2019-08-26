@@ -4,6 +4,7 @@ import rootReducer from './reducers'
 
 const initialState ={};
 const middleware = [thunk];
+let store
 if (process.env.NODE_ENV === 'production') {
     store = createStore(rootReducer, initialState, compose(
         applyMiddleware(...middleware)
