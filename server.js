@@ -82,4 +82,4 @@ res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
 }
 
 // Starting Server 
-app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+app.listen(process.env.PORT, () => console.log(`Server started on port ${PORT}`));
