@@ -1,4 +1,4 @@
-## (TeaSpots)[https://safe-castle-74337.herokuapp.com/login#/]
+## [TeaSpots](https://safe-castle-74337.herokuapp.com/login#/)
 # For Testing Purposes:
 1. Log In: Username = jpimentel45@gmail.com Password = nauj1994
 2. User should have different navbar options allowing for sign up or updating special
